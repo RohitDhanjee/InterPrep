@@ -1,0 +1,36 @@
+flask
+flask-cors
+SpeechRecognition
+langchain
+langchain-community
+unstructured
+python-pptx
+openai==0.28
+vosk 
+librosa 
+pydub 
+praat-parselmouth 
+pyworld 
+nltk 
+textstat
+SpeechRecognition
+firebase_admin
+# python == 3.11.5
+
+# for converting ppt file into png files
+comtypes
+pywin32
+
+
+# Activate your venv first
+python_server\venv\Scripts\activate
+
+# Generate requirements.txt
+pip freeze > python_server/requirements.txt
+
+# Add and commit it
+git add python_server/requirements.txt
+git commit -m "Add requirements.txt for dependency management"
+
+# Then push
+git push -u remote1 main -f

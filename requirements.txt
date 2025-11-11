@@ -1,0 +1,12 @@
+# Activate your venv first
+python_server\venv\Scripts\activate
+
+# Generate requirements.txt
+pip freeze > python_server/requirements.txt
+
+# Add and commit it
+git add python_server/requirements.txt
+git commit -m "Add requirements.txt for dependency management"
+
+# Then push
+git push -u remote1 main -f

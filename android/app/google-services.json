@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1070034619711",
+    "project_id": "interprep-585db",
+    "storage_bucket": "interprep-585db.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070034619711:android:2830c41253b4e77852578a",
+        "android_client_info": {
+          "package_name": "com.example.prepvrse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa0akBz0IIo--UmDlwuJ7g6mb70-cX_gE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
